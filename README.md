@@ -1,6 +1,1 @@
-# pokeDexter
-# pokeDexter
-# pokeDexter
-# pokeDexter
-# pokeDexter
-# pokeDexter
+# Pokemon Encyclopedia
