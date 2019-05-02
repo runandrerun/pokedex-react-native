@@ -88,36 +88,21 @@ export default class App extends Component < Props > {
     const {
       searchTerm
     } = this.state
-    return ( <
-      SafeAreaView >
-      <
-      ScrollView showsVerticalScrollIndicator = {
-        false
-      }
-      showsHorizontalScrollIndicator = {
-        false
-      } >
-      <
-      TextInput style = {
+    return ( <SafeAreaView >
+      <ScrollView showsVerticalScrollIndicator = {false} showsHorizontalScrollIndicator = {false} >
+      <TextInput style = {
         {
           height: 40,
           borderColor: 'gray',
           borderWidth: 1
         }
       }
-      onChangeText = {
-        search
-      }
-      value = {
-        searchTerm
-      }
-      /> <
-      Content filteredPokemons = {
-        getPokesAndFilter()
-      }
-      /> <
-      /ScrollView> <
-      /SafeAreaView>
+      onChangeText = {search}
+      value = {searchTerm}
+      /> 
+      <Content filteredPokemons = {getPokesAndFilter()}/> 
+        </ScrollView> 
+      </SafeAreaView>
 
     );
   }
