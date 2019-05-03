@@ -67,7 +67,7 @@ export default class App extends Component < Props > {
       const filteredPoke = pokemons.results.filter(pokemon => {
         return pokemon[filterBy].includes(searchTerm.toLowerCase())
       })
-      return filteredPoke
+      return filteredPoke.slice(0, 20)
     }
   }
 

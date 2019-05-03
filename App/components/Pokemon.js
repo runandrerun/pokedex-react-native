@@ -1,10 +1,16 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import {
+  View,
+  Text
+} from 'react-native'
 
 const Pokemon = (props) => {
+
+ 
+
   return (
     <View>
-      <Text>{props.name}</Text>
+      <Text >{props.name}</Text>
     </View>
   )
 }
